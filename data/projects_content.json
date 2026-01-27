@@ -1,0 +1,54 @@
+[
+  {
+    "id": 228,
+    "slug": "ACCENT",
+    "category": "projects",
+    "title": "ACCENT",
+    "date_iso": "2025-02-21",
+    "date_display": "February 21, 2025",
+    "excerpt": "The study of relationships between genes and diseases is a focus area with applications ranging from better understanding the efficacy of drugs or the design of new ones, to the anticipation of disease onset and the eventual acting on preventative actions. This research effort also finds its place in personalized medicine. Because of a lack",
+    "content_html": "<p class=\"wp-block-paragraph\">The study of relationships between genes and diseases is a focus area with applications ranging from better understanding the efficacy of drugs or the design of new ones, to the anticipation of disease onset and the eventual acting on preventative actions. This research effort also finds its place in personalized medicine. Because of a lack of strong factual knowledge the relations between genes and diseases are established in a hypothetical way with a range of supporting evidences. Resources like Disgenet, for instance, establish such links (referred to as ”GDAs” &#8211; gene-disease associations) via variant shortcuts and text mining. A variant shortcut can be expressed as ”If a variant on gene X is found to often enough found in combination with disease Y, then we assume X and Y to be related.”. Another type of shortcut could be one via a drug: ”if a drug targeting the protein expressed by Gene X is prescribed for the disease Y then X and Y are related”. These two examples of reasoning can be efficiently modeled in a Knowledge Graph made of multi-omics information. We aim to improve on AI-Human collaboration around a knowledge graphs.</p>\n\n\n\n<p class=\"wp-block-paragraph\"></p>",
+    "image": "/assets/images/ai_risk_score.png",
+    "source_url": "https://trailab.nl/2025/02/21/project-4/",
+    "back_href": "../index.html#projects"
+  },
+  {
+    "id": 175,
+    "slug": "LabGPT",
+    "category": "projects",
+    "title": "LabGPT",
+    "date_iso": "2025-02-21",
+    "date_display": "February 21, 2025",
+    "excerpt": "Clinical prediction models are potentially effective, but very limited in a medical sense [Moor et al 2023]: (i) the models are often task-specific for one particular disease, intervention or clinical outcome. For example, each of the 500 FDA AI models is approved for 1 or 2 specific tasks [FDA 2022]; (ii) they are developed and",
+    "content_html": "<p class=\"wp-block-paragraph\">Clinical prediction models are potentially effective, but very limited in a medical sense [Moor et al 2023]: (i) the models are often task-specific for one particular disease, intervention or clinical outcome. For example, each of the 500 FDA AI models is approved for 1 or 2 specific tasks [FDA 2022]; (ii) they are developed and applied unimodally, i.e., with a single type of data (modality), i.e., tables, images or free text; and (iii) they do not use contextual information, for example about pathophysiological processes, but are often based solely on identifying statistical associations. These limitations have major implications: (i) the models have little effective use in medical decision-making, because much more information (multimodal and contextual) is considered than in a prediction model. For example, laboratory diagnostics is involved in more than 70% of medical decisions [NVKC 2022]; and (ii) task specificity means that a multitude of models are needed (so to speak for each disease/intervention/outcome), each of which is developed, implemented and maintained almost separately. Our aim is to develop a clinical foundation model with laboratory data and contextual information. Just as ChatGPT was developed based on text data from the internet with a chatbot as an application, we propose to develop a foundation model based on laboratory data with a series of prediction models as an application.</p>\n\n\n\n<p class=\"wp-block-paragraph\"></p>",
+    "image": "/assets/images/ai_llm_dashboard_in_lab.png",
+    "source_url": "https://trailab.nl/2025/02/21/project-3/",
+    "back_href": "../index.html#projects"
+  },
+  {
+    "id": 173,
+    "slug": "BloodCounts!",
+    "category": "projects",
+    "title": "BloodCounts!",
+    "date_iso": "2025-02-21",
+    "date_display": "February 21, 2025",
+    "excerpt": "The Full Blood Count (FBC) is an essential test used to inform medical decision-making. It is the world’s most common medical laboratory test – performed an estimated 3.6 billion times per year.During the 30-second FBC test, an automated machine called a haematology analyser is used to measure the characteristics of the seven main blood cell types.In",
+    "content_html": "<p class=\"wp-block-paragraph\">The Full Blood Count (FBC) is an essential test used to inform medical decision-making. It is the world’s most common medical laboratory test &#8211; performed an estimated 3.6 billion times per year.During the 30-second FBC test, an automated machine called a haematology analyser is used to measure the characteristics of the seven main blood cell types.In short, the cells in the blood sample are dye-stained and then laser-illuminated one-by-one from different angles &#8211; the scatter pattern of each laser is then used to identify the type of cell, for example a Red Blood Cell, and count it! Despite the wide-scale use of the test, results are generally interpreted on a case-by-case basis, instead of being compared to all other samples in a population. Additionally, once high-level results such as Red Cell Count are calculated, data from the many thousands of laser measurements performed during the test are generally discarded! We use the Full Blood Count test to predict infectious disease outbreaks and for earlier diagnosis of non-infectious conditions.</p>",
+    "image": "/assets/images/bloodcount_analysis.png",
+    "source_url": "https://trailab.nl/2025/02/21/project-2/",
+    "back_href": "../index.html#projects"
+  },
+  {
+    "id": 171,
+    "slug": "EXCELERATE",
+    "category": "projects",
+    "title": "EXCELERATE",
+    "date_iso": "2025-02-21",
+    "date_display": "February 21, 2025",
+    "excerpt": "Foundation Model Development for Advanced Full Blood Count Analysis",
+    "content_html": "<p class=\"wp-block-paragraph\">A new and disruptive paradigm for building AI systems has emerged in recent years: train a single foundation model on a huge amount of data and adapt it to many applications. The exceptionally rapid adoption of ChatGPT and DALL-E show that this paradigm is very successful. In medicine, such foundation modelling will drastically transform the way that risk models are developed, implemented and interpreted. This proof-of-concept study will build a single foundation model using clinical laboratory data (i.e., full blood count tests) and with transfer learning adapt it to different risk models for infectious diseases and heart diseases.</p>\n\n\n\n<p class=\"wp-block-paragraph\"></p>",
+    "image": "/assets/images/ai_advanced_systems.png",
+    "source_url": "https://trailab.nl/2025/02/21/project-1/",
+    "back_href": "../index.html#projects"
+  }
+]

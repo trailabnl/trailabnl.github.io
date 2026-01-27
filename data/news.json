@@ -1,44 +1,56 @@
 [
   {
     "title": "PhD vacancy!",
-    "date": "March 24, 2025",
-    "excerpt": "Within laboratory medicine we are working hard to improve diagnostics with AI-driven insights and real-world clinical impact.",
-    "url": "https://trailab.nl/2025/03/24/phd-vacancy/",
-    "image": "https://i0.wp.com/trailab.nl/wp-content/uploads/2025/03/laboratory-medicine-ai-measurements.png?fit=1200%2C800&ssl=1"
+    "excerpt": "Within #laboratory medicine we are working hard to improve diagnostics. #Artificial #Intelligence is a means to further improve those diagnostics. Do you want to work as a #PhD candidate on projects in which Artificial Intelligence will be…",
+    "url": "news/phd-vacancy.html",
+    "image": "/assets/images/ai_lab.png",
+    "ctaLabel": "Read More",
+    "slug": "phd-vacancy",
+    "date": "March 24, 2025"
   },
   {
-    "title": "New publication!",
-    "date": "March 5, 2025",
-    "excerpt": "The journey of more than 80% of patients diagnosed with lung cancer begins in primary care. Our latest work explores earlier detection opportunities.",
-    "url": "https://trailab.nl/2025/03/05/news-4/",
-    "image": "https://i0.wp.com/trailab.nl/wp-content/uploads/2025/02/lungcancr.jpg?fit=1200%2C800&ssl=1"
+    "title": "New publication in BJGP!",
+    "excerpt": "The journey of more than 80% of patients diagnosed with lung cancer starts in general practice. About 75% of patients are diagnosed in an advanced stage (3 or 4), leading to more than 80% mortality within one year at present. The long-term…",
+    "url": "news/new-publication-in-bjgp.html",
+    "image": "/assets/images/lung_cancer.jpg",
+    "ctaLabel": "Read More",
+    "slug": "new-publication-in-bjgp",
+    "date": "March 5, 2025"
   },
   {
     "title": "Interview with Martijn",
-    "date": "January 23, 2025",
-    "excerpt": "From risk models to clinical decision support, translational AI helps clinicians reason with evidence, context, and uncertainty.",
-    "url": "https://trailab.nl/2025/01/23/press-release/",
-    "image": "https://i0.wp.com/trailab.nl/wp-content/uploads/2025/02/schut-martijn-80848-0784-alaa-1-small.jpg?resize=1200%2C800&ssl=1"
+    "excerpt": "As a risk and prediction model, as decision support for the physician, as a tool for process optimization, artificial intelligence (AI) is penetrating all facets of healthcare. Does it also lead to better patient care? Prof. Dr. Martijn Sc…",
+    "url": "news/interview-with-martijn-23-01-2025.html",
+    "image": "/assets/images/ai_lab_measurements.png",
+    "ctaLabel": "Read More",
+    "slug": "interview-with-martijn-23-01-2025",
+    "date": "January 23, 2025"
   },
   {
-    "title": "New publication!",
-    "date": "January 9, 2025",
-    "excerpt": "This study demonstrates an innovative machine learning approach to ultra-rare diseases, improving detection using routine clinical measurements.",
-    "url": "https://trailab.nl/2025/01/09/news-3/",
-    "image": "https://i0.wp.com/trailab.nl/wp-content/uploads/2025/02/485px-Glycogen_structure.svg_.png?fit=1200%2C800&ssl=1"
+    "title": "New publication in OJRD!",
+    "excerpt": "This study demonstrates an innovative approach to applying machine learning to ultra-rare diseases by accurately identifying GSD Ia (Von Gierke) patients based on plasma free carnitine and acylcarnitine concentrations, leveraging subtle ac…",
+    "url": "news/new-publication-ojrd.html",
+    "image": "/assets/images/ojrd_protein_fold.png",
+    "ctaLabel": "Read More",
+    "slug": "new-publication-ojrd",
+    "date": "January 9, 2025"
   },
   {
     "title": "Dr. Daniel!",
-    "date": "December 17, 2024",
-    "excerpt": "Daniel Daza's research focused on improving how computers understand and use large clinical datasets to support better reasoning in medicine.",
-    "url": "https://trailab.nl/2024/12/17/news-2/",
-    "image": "https://i0.wp.com/trailab.nl/wp-content/uploads/2025/03/Daniel.1-5-edited.jpeg?resize=1200%2C1200&ssl=1"
+    "excerpt": "Daniel Daza’s research focused on improving how computers understand and use large, interconnected datasets called knowledge graphs (KGs). These graphs organize information about entities, like people, organizations, or molecules, and the…",
+    "url": "news/dr-daniel.html",
+    "image": "/assets/images/defense_daniel.jpg",
+    "ctaLabel": "Read More",
+    "slug": "dr-daniel",
+    "date": "December 17, 2024"
   },
   {
     "title": "Dr. Sjors!",
-    "date": "November 30, 2024",
-    "excerpt": "Dr. In 't Veld's work represents a pivotal advancement in the field, bridging clinical needs with robust AI methods that are ready to translate.",
-    "url": "https://trailab.nl/2024/11/30/news-1/",
-    "image": "https://i0.wp.com/trailab.nl/wp-content/uploads/2025/02/Sjors-In-t-Veld.jpg?fit=1200%2C1200&ssl=1"
+    "excerpt": "Dr. In t’ Veld’s work represents a pivotal advancement in the field of liquid biopsy, establishing tumor-educated platelets (TEPs) as a highly versatile and clinically significant biosource for disease detection and monitoring. By leveragi…",
+    "url": "news/dr-sjors.html",
+    "image": "/assets/images/sjors.jpg",
+    "ctaLabel": "Read More",
+    "slug": "dr-sjors",
+    "date": "November 30, 2024"
   }
 ]
