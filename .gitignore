@@ -1,0 +1,7 @@
+# Ignore local scraping outputs and helper scripts
+scrapes/
+scripts/
+
+# Common OS/editor noise
+.DS_Store
+Thumbs.db

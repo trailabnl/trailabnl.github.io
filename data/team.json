@@ -1,0 +1,105 @@
+[
+  {
+    "name": "Martijn Schut",
+    "role": "Chair",
+    "image": "https://i0.wp.com/trailab.nl/wp-content/uploads/2025/02/schut-martijn-80848-0784-alaa-1-small.jpg?resize=800%2C800&ssl=1"
+  },
+  {
+    "name": "Helena Chon",
+    "role": "Clinical Chemist"
+  },
+  {
+    "name": "Micol Zweig",
+    "role": "AI Laboratory Officer",
+    "image": "https://i0.wp.com/trailab.nl/wp-content/uploads/2025/03/Micol.1-2-edited-1.jpeg?resize=800%2C800&ssl=1"
+  },
+  {
+    "name": "Sjors in 't Veld",
+    "role": "Postdoctoral researcher",
+    "image": "https://i0.wp.com/trailab.nl/wp-content/uploads/2025/02/Sjors-In-t-Veld.jpg?fit=800%2C800&ssl=1"
+  },
+  {
+    "name": "Majid Lotfian Delouee",
+    "role": "Postdoctoral researcher",
+    "focus": "Clinical Foundation Models",
+    "image": "https://i0.wp.com/trailab.nl/wp-content/uploads/2025/03/Majid.1-edited.jpeg?resize=800%2C800&ssl=1"
+  },
+  {
+    "name": "Daniel Daza",
+    "role": "Postdoctoral researcher",
+    "focus": "Learning and Reasoning",
+    "image": "https://i0.wp.com/trailab.nl/wp-content/uploads/2025/03/Daniel.1-5-edited.jpeg?resize=800%2C800&ssl=1"
+  },
+  {
+    "name": "Andrea Rafanelli",
+    "role": "Postdoctoral researcher",
+    "focus": "Digital Biomarkers",
+    "image": "https://i0.wp.com/trailab.nl/wp-content/uploads/2025/09/Andrea-1.jpg?resize=800%2C800&ssl=1"
+  },
+  {
+    "name": "Allerdien Visser",
+    "role": "Research analyst",
+    "image": "https://i0.wp.com/trailab.nl/wp-content/uploads/2025/03/Allerdien.3-edited.jpeg?resize=800%2C800&ssl=1"
+  },
+  {
+    "name": "Manon van Ingen",
+    "role": "Research analyst",
+    "image": "https://i0.wp.com/trailab.nl/wp-content/uploads/2025/03/Manon_cropped.png?resize=800%2C800&ssl=1"
+  },
+  {
+    "name": "Mandy Chin-Sie",
+    "role": "Support staff",
+    "image": "https://i0.wp.com/trailab.nl/wp-content/uploads/2025/03/Mandy.2-1-edited.jpeg?resize=800%2C800&ssl=1"
+  },
+  {
+    "name": "Youssef El Ghouch",
+    "role": "PhD student",
+    "focus": "Microbiology",
+    "image": "https://i0.wp.com/trailab.nl/wp-content/uploads/2025/03/Youssef_cropped.png?resize=800%2C800&ssl=1"
+  },
+  {
+    "name": "Martijn Siepel",
+    "role": "PhD student",
+    "focus": "Microbiology",
+    "image": "https://i0.wp.com/trailab.nl/wp-content/uploads/2025/03/Martijn_cropped.png?resize=800%2C800&ssl=1"
+  },
+  {
+    "name": "Bas de Haan",
+    "role": "PhD student",
+    "focus": "Endocrinology",
+    "image": "https://i0.wp.com/trailab.nl/wp-content/uploads/2025/03/Bas_cropped.png?resize=800%2C800&ssl=1"
+  },
+  {
+    "name": "Isabel Houtkamp",
+    "role": "PhD student",
+    "focus": "Neurochemistry",
+    "image": "https://i0.wp.com/trailab.nl/wp-content/uploads/2025/03/0fc8566d-2298-40fb-933d-3e1d470d24a2_Profielfoto-isabel.jpeg?resize=800%2C800&ssl=1"
+  },
+  {
+    "name": "Sjoerd Kielstra",
+    "role": "PhD student",
+    "focus": "Human Movement Sciences",
+    "image": "https://i0.wp.com/trailab.nl/wp-content/uploads/2025/03/sjoerd-kielstra.jpg?resize=800%2C800&ssl=1"
+  },
+  {
+    "name": "Roosmarie Jessen",
+    "role": "PhD student",
+    "focus": "Ethics and Law",
+    "image": "https://i0.wp.com/trailab.nl/wp-content/uploads/2025/03/cid72383_1727488192463_WhatsApp_Image_2023-11-13_at_12.07.38.jpeg?resize=800%2C800&ssl=1"
+  },
+  {
+    "name": "TBA",
+    "role": "PhD student",
+    "focus": "Endocrinology"
+  },
+  {
+    "name": "Vacancy",
+    "role": "PhD student",
+    "focus": "Laboratory Medicine"
+  },
+  {
+    "name": "Vacancy",
+    "role": "PhD student",
+    "focus": "ADOREBioComputing"
+  }
+]

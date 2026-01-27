@@ -1,0 +1,30 @@
+[
+  {
+    "title": "LabGPT",
+    "subtitle": "Clinical Foundation Models",
+    "excerpt": "Clinical prediction models can be effective but limited in medical context. LabGPT explores large models that reason over laboratory data with clinical nuance.",
+    "url": "https://trailab.nl/#Projects",
+    "image": "https://i0.wp.com/trailab.nl/wp-content/uploads/2025/02/laboratory-large-language-model.png?resize=1200%2C1200&ssl=1"
+  },
+  {
+    "title": "EXCELERATE",
+    "subtitle": "Advanced Full Blood Count Analysis",
+    "excerpt": "A foundation model approach for advanced full blood count interpretation, designed to improve diagnostic accuracy and support clinicians across the care pathway.",
+    "url": "https://trailab.nl/#Projects",
+    "image": "https://i0.wp.com/trailab.nl/wp-content/uploads/2024/11/a-zoom-in-of-the-table-top-of-an-advanced.png?resize=1200%2C1200&ssl=1"
+  },
+  {
+    "title": "ACCENT",
+    "subtitle": "Genes, Disease, and Prediction",
+    "excerpt": "ACCENT studies relationships between genes and disease. The project builds AI tools that connect molecular signals to clinical decisions in a traceable way.",
+    "url": "https://trailab.nl/#Projects",
+    "image": "https://i0.wp.com/trailab.nl/wp-content/uploads/2025/02/knowledge-driven-clinical-risk-score.png?resize=1200%2C1200&ssl=1"
+  },
+  {
+    "title": "BloodCounts!",
+    "subtitle": "Full Blood Count Intelligence",
+    "excerpt": "The full blood count is essential in clinical decision-making. BloodCounts! develops AI-assisted analysis that makes these routine measurements more informative.",
+    "url": "https://trailab.nl/#Projects",
+    "image": "https://i0.wp.com/trailab.nl/wp-content/uploads/2025/02/full-bloodcount-analysis-with-ai.png?resize=1200%2C1200&ssl=1"
+  }
+]

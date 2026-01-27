@@ -1,0 +1,44 @@
+[
+  {
+    "title": "PhD vacancy!",
+    "date": "March 24, 2025",
+    "excerpt": "Within laboratory medicine we are working hard to improve diagnostics with AI-driven insights and real-world clinical impact.",
+    "url": "https://trailab.nl/2025/03/24/phd-vacancy/",
+    "image": "https://i0.wp.com/trailab.nl/wp-content/uploads/2025/03/laboratory-medicine-ai-measurements.png?fit=1200%2C800&ssl=1"
+  },
+  {
+    "title": "New publication!",
+    "date": "March 5, 2025",
+    "excerpt": "The journey of more than 80% of patients diagnosed with lung cancer begins in primary care. Our latest work explores earlier detection opportunities.",
+    "url": "https://trailab.nl/2025/03/05/news-4/",
+    "image": "https://i0.wp.com/trailab.nl/wp-content/uploads/2025/02/lungcancr.jpg?fit=1200%2C800&ssl=1"
+  },
+  {
+    "title": "Interview with Martijn",
+    "date": "January 23, 2025",
+    "excerpt": "From risk models to clinical decision support, translational AI helps clinicians reason with evidence, context, and uncertainty.",
+    "url": "https://trailab.nl/2025/01/23/press-release/",
+    "image": "https://i0.wp.com/trailab.nl/wp-content/uploads/2025/02/schut-martijn-80848-0784-alaa-1-small.jpg?resize=1200%2C800&ssl=1"
+  },
+  {
+    "title": "New publication!",
+    "date": "January 9, 2025",
+    "excerpt": "This study demonstrates an innovative machine learning approach to ultra-rare diseases, improving detection using routine clinical measurements.",
+    "url": "https://trailab.nl/2025/01/09/news-3/",
+    "image": "https://i0.wp.com/trailab.nl/wp-content/uploads/2025/02/485px-Glycogen_structure.svg_.png?fit=1200%2C800&ssl=1"
+  },
+  {
+    "title": "Dr. Daniel!",
+    "date": "December 17, 2024",
+    "excerpt": "Daniel Daza's research focused on improving how computers understand and use large clinical datasets to support better reasoning in medicine.",
+    "url": "https://trailab.nl/2024/12/17/news-2/",
+    "image": "https://i0.wp.com/trailab.nl/wp-content/uploads/2025/03/Daniel.1-5-edited.jpeg?resize=1200%2C1200&ssl=1"
+  },
+  {
+    "title": "Dr. Sjors!",
+    "date": "November 30, 2024",
+    "excerpt": "Dr. In 't Veld's work represents a pivotal advancement in the field, bridging clinical needs with robust AI methods that are ready to translate.",
+    "url": "https://trailab.nl/2024/11/30/news-1/",
+    "image": "https://i0.wp.com/trailab.nl/wp-content/uploads/2025/02/Sjors-In-t-Veld.jpg?fit=1200%2C1200&ssl=1"
+  }
+]

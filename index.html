@@ -1,9 +1,297 @@
 <!doctype html>
-<html>
+<html lang="en">
   <head>
-    <title>This is the title of the webpage!</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Translational AI Laboratory (TrAIL) advances AI-driven laboratory medicine and clinical diagnostics."
+    />
+    <title>Translational AI Laboratory</title>
+    <link rel="stylesheet" href="assets/styles.css" />
   </head>
   <body>
-    <p>This is an example paragraph. Anything in the <strong>body</strong> tag will appear on the page, just like this <strong>p</strong> tag and its contents.</p>
+    <a class="skip-link" href="#main">Skip to content</a>
+
+    <header class="site-header" id="top">
+      <div class="container header-inner">
+        <a class="brand" href="#top">Translational AI Laboratory</a>
+        <button class="nav-toggle" aria-expanded="false" aria-controls="primary-nav">
+          Menu
+        </button>
+        <nav class="primary-nav" id="primary-nav" aria-label="Primary">
+          <a href="#news">News</a>
+          <a href="#moonshots">Moonshots</a>
+          <a href="#research">Research</a>
+          <a href="#projects">Projects</a>
+          <a href="#operations">Operations</a>
+          <a href="#team">Team</a>
+          <a href="#publications">Publications</a>
+          <a href="#contact">Contact</a>
+        </nav>
+      </div>
+    </header>
+
+    <main id="main">
+      <section
+        class="section hero section--image"
+        id="hero"
+        style="--bg-image: url('https://i0.wp.com/trailab.nl/wp-content/uploads/2024/12/pexels-photo-25626515.jpeg?resize=1200%2C675&ssl=1')"
+      >
+        <div class="container hero-content">
+          <h1 class="hero-title">Translational AI Laboratory</h1>
+          <div class="panel hero-panel">
+            <p>
+              The Translational AI Laboratory (<strong>TrAIL</strong>) is the innovative research,
+              development, and implementation laboratory focused on advancing AI-driven laboratory
+              medicine and clinical diagnostics. Located within the Division of Laboratories of
+              Amsterdam UMC, it bridges cutting-edge AI technology with healthcare solutions.
+            </p>
+            <p>
+              <strong>Translational AI</strong> turns research and data into real-world clinical
+              tools and treatments. <strong>Laboratory medicine</strong> is central to clinical
+              decision-making, and AI helps clinicians make more informed, evidence-based decisions
+              for better patient outcomes.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="news" aria-labelledby="news-title">
+        <div class="container">
+          <div class="section-heading">
+            <h2 class="section-title" id="news-title">News</h2>
+            <p class="section-lead">Highlights, milestones, and recent updates from the lab.</p>
+          </div>
+
+          <div class="carousel" data-source="data/news.json" data-type="news" aria-label="News">
+            <button class="carousel-control prev" type="button" aria-label="Previous slide">
+              <span aria-hidden="true">&#8249;</span>
+            </button>
+            <div class="carousel-viewport">
+              <ul class="carousel-track" role="list"></ul>
+            </div>
+            <button class="carousel-control next" type="button" aria-label="Next slide">
+              <span aria-hidden="true">&#8250;</span>
+            </button>
+          </div>
+        </div>
+      </section>
+
+      <section
+        class="section section--image"
+        id="moonshots"
+        aria-labelledby="moonshots-title"
+        style="--bg-image: url('https://i0.wp.com/trailab.nl/wp-content/uploads/2025/03/f93a50e3-9ad0-49ca-aa63-05bd846c0315.webp?resize=1200%2C675&ssl=1')"
+      >
+        <div class="container">
+          <div class="panel">
+            <div class="section-heading section-heading--light">
+              <h2 class="section-title" id="moonshots-title">Moonshots</h2>
+              <p class="section-lead">
+                We envision long-term moonshots for translational AI in laboratory medicine. These
+                projects are driven by bold, out-of-the-box thinking and a diverse combination of
+                talents and skills.
+              </p>
+            </div>
+            <div class="feature-grid">
+              <article class="feature">
+                <h3 class="feature-title">AtlasMD</h3>
+                <p>
+                  A clinician can engage in real-time dialogue with an AI assistant to review a
+                  patient's health history, lab results, and other relevant data during a single
+                  visit. The clinician can iteratively refine questions, probe for patterns, and
+                  co-develop a risk assessment or preliminary diagnosis on the spot.
+                </p>
+              </article>
+              <article class="feature">
+                <h3 class="feature-title">Omniself</h3>
+                <p>
+                  An AI system collects comprehensive multi-modal data to establish a patient's
+                  baseline through repeated measurements, comparison to population norms, and
+                  integration of wearable data. Machine learning tools then build a unique health
+                  profile to define thresholds for abnormalities.
+                </p>
+              </article>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="research" aria-labelledby="research-title">
+        <div class="container container--narrow">
+          <div class="section-heading">
+            <h2 class="section-title" id="research-title">Research</h2>
+          </div>
+          <p class="research-text">
+            TrAIL is a multidisciplinary laboratory where we advance scientific findings and
+            translate these findings into actionable information and insights. We leverage
+            state-of-the-art AI and world-class expertise in medicine to rethink what is possible
+            for the future of healthcare. TrAIL specializes in cutting-edge AI research in clinical
+            diagnostics (TRL 1-3), and the development and innovation of advanced AI technologies
+            in medicine (TRL 4-6). We actively drive implementation of these solutions into
+            real-world clinical applications, ensuring their effectiveness, efficiency, and
+            scalability (TRL 7-9).
+          </p>
+        </div>
+      </section>
+
+      <section class="section" id="projects" aria-labelledby="projects-title">
+        <div class="container">
+          <div class="section-heading">
+            <h2 class="section-title" id="projects-title">Projects</h2>
+            <p class="section-lead">
+              Our research spans the full spectrum of AI development, from foundational models to
+              real-world clinical deployment.
+            </p>
+          </div>
+
+          <div
+            class="carousel"
+            data-source="data/projects.json"
+            data-type="projects"
+            aria-label="Projects"
+          >
+            <button class="carousel-control prev" type="button" aria-label="Previous slide">
+              <span aria-hidden="true">&#8249;</span>
+            </button>
+            <div class="carousel-viewport">
+              <ul class="carousel-track" role="list"></ul>
+            </div>
+            <button class="carousel-control next" type="button" aria-label="Next slide">
+              <span aria-hidden="true">&#8250;</span>
+            </button>
+          </div>
+        </div>
+      </section>
+
+      <section
+        class="section section--image"
+        id="operations"
+        aria-labelledby="operations-title"
+        style="--bg-image: url('https://i0.wp.com/trailab.nl/wp-content/uploads/2025/03/DALL%C2%B7E-2025-03-05-17.11.09-A-calm-and-professional-background-with-a-subtle-gradient-of-deep-blue-and-dark-teal.-The-image-should-have-a-soft-flowing-texture-resembling-smooth-.webp?resize=1200%2C675&ssl=1')"
+      >
+        <div class="container">
+          <div class="panel">
+            <div class="section-heading section-heading--light">
+              <h2 class="section-title" id="operations-title">Operations</h2>
+              <p class="section-lead">
+                We manage data, model governance, quality assurance, lifecycle management, and the
+                ethical, legal, and societal impact of AI in clinical diagnostics.
+              </p>
+            </div>
+            <div class="operations-grid">
+              <article class="operation">
+                <h3 class="operation-title">Governance</h3>
+                <p>
+                  We bring expert knowledge in clinical data management, model governance, and
+                  high-performance computing. By integrating electronic health records, laboratory
+                  information systems, and external data, we design workflows that enable
+                  data-driven medical decision-making.
+                </p>
+              </article>
+              <article class="operation">
+                <h3 class="operation-title">Quality</h3>
+                <p>
+                  We prioritize quality assurance and control by adhering to key regulations such
+                  as IVDR, MDR, GDPR, the AI Act, and relevant ISO standards. Robust ML-Ops methods
+                  help us manage the model lifecycle with compliance, traceability, and
+                  reproducibility.
+                </p>
+              </article>
+              <article class="operation">
+                <h3 class="operation-title">Impact</h3>
+                <p>
+                  We maintain strong awareness of ethical, legal, and societal implications. We
+                  prioritize fairness, transparency, and accountability to uphold patient privacy,
+                  minimize bias, and comply with regulatory standards.
+                </p>
+              </article>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="team" aria-labelledby="team-title">
+        <div class="container">
+          <div class="section-heading container--narrow">
+            <h2 class="section-title" id="team-title">Team</h2>
+            <p class="section-lead">
+              We are a multidisciplinary group spanning faculty, research staff, postdocs, PhD
+              students, and research analysts. Together, we bridge clinical and technical domains
+              to deliver impactful advances in healthcare.
+            </p>
+          </div>
+          <div class="team-grid" id="team-grid" role="list"></div>
+        </div>
+      </section>
+
+      <section
+        class="section section--image"
+        id="publications"
+        aria-labelledby="publications-title"
+        style="--bg-image: url('https://i0.wp.com/trailab.nl/wp-content/uploads/2025/03/g7fee090f903b92e14540f5e711a8d8e5a840ddf63a0eeeecd71ffc84360f95a4faa70d5bbae3018a27e7bab53bd557c1d78368a5a1208c303655e99e57f61499_1280-8594725.jpg?resize=1400%2C900&ssl=1')"
+      >
+        <div class="container">
+          <div class="panel panel--wide">
+            <div class="section-heading section-heading--light">
+              <h2 class="section-title" id="publications-title">Recent Publications</h2>
+            </div>
+            <ul class="publication-list" id="publications-list"></ul>
+            <p class="publications-cta">
+              <a
+                class="button button--accent"
+                href="https://pure.amsterdamumc.nl/en/organisations/trail-2"
+                target="_blank"
+                rel="noreferrer"
+                >See All Publications</a
+              >
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="contact" aria-labelledby="contact-title">
+        <div class="container container--narrow">
+          <div class="section-heading">
+            <h2 class="section-title" id="contact-title">Contact</h2>
+            <p class="section-lead">Connect with us for research, collaboration, and impact.</p>
+          </div>
+          <div class="contact-grid">
+            <a
+              class="contact-card"
+              href="https://linkedin.com/company/amsterdam-umc-trail/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <span class="contact-icon" aria-hidden="true">in</span>
+              <span class="contact-label">LinkedIn</span>
+            </a>
+            <a class="contact-card" href="mailto:m.c.schut@amsterdamumc.nl">
+              <span class="contact-icon" aria-hidden="true">@</span>
+              <span class="contact-label">Email</span>
+            </a>
+            <a
+              class="contact-card"
+              href="https://www.amsterdamumc.nl/en/en/adress/location-vumc/route-and-parking.htm"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <span class="contact-icon" aria-hidden="true">+</span>
+              <span class="contact-label">VUmc</span>
+            </a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <p class="footer-text">Translational AI Laboratory (TrAIL)</p>
+        <a class="footer-link" href="#top">Back to top</a>
+      </div>
+    </footer>
+
+    <script src="assets/site.js" defer></script>
   </body>
 </html>
