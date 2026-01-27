@@ -1,5 +1,14 @@
 [
   {
+    "title": "Publication in JPI!",
+    "excerpt": "We published in JPI on automating Palga thesaurus annotations with T5-based models, showing strong quantitative gains with PaTh5.NL while highlighting persistent challenges on complex reports.",
+    "url": "news/publication-in-jpi.html",
+    "image": "/assets/images/ai_advanced_systems.png",
+    "ctaLabel": "Read More",
+    "slug": "publication-in-jpi",
+    "date": "December 28, 2025"
+  },
+  {
     "title": "PhD vacancy!",
     "excerpt": "Within #laboratory medicine we are working hard to improve diagnostics. #Artificial #Intelligence is a means to further improve those diagnostics. Do you want to work as a #PhD candidate on projects in which Artificial Intelligence will be…",
     "url": "news/phd-vacancy.html",

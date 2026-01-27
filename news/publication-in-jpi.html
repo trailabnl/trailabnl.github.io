@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="We published in JPI on automating Palga thesaurus annotations with T5-based models, showing strong quantitative gains with PaTh5.NL while highlighting persistent challenges on com…" />
+    <meta name="post-slug" content="publication-in-jpi" />
+    <title>Publication in JPI! - Translational AI Laboratory</title>
+    <link rel="stylesheet" href="../assets/styles.css" />
+  </head>
+  <body class="post-page" data-slug="publication-in-jpi" data-category="news">
+    <a class="skip-link" href="#main">Skip to content</a>
+
+    <header class="post-header">
+      <div class="container header-inner">
+        <a class="brand" href="../index.html">Translational AI Laboratory</a>
+        <nav class="post-nav" aria-label="Post navigation">
+          <a class="post-back-link" href="../index.html#news">Back to section</a>
+        </nav>
+      </div>
+    </header>
+
+    <main id="main">
+      <section class="post-hero" style="--post-hero-image: url('/assets/images/ai_advanced_systems.png')">
+        <div class="container">
+          <div class="post-hero-panel">
+            <p class="post-eyebrow">News</p>
+            <h1 class="post-title">Publication in JPI!</h1>
+            <p class="post-date">December 28, 2025</p>
+          </div>
+        </div>
+      </section>
+
+      <article class="post-content">
+        <div class="container container--narrow">
+          <div class="post-content-inner"><p>Palga Foundation is responsible for indexing Dutch pathology data across the Netherlands, which relies on annotations of pathology reports. These annotations, derived from the conclusion text, consist of codes from the Palga thesaurus and serve both patient care and scientific research. However, manual annotation by pathologists is labor-intensive and prone to errors.</p>
+
+<p>In this study, we leverage sequence-to-sequence transformer models, particularly T5-based models, to generate these annotations. We also investigate a constrained decoding (CD) approach that encodes domain knowledge. We compare a standard multilingual T5 model (mT5) with our own Palga-pretrained model (PaTh5.NL), designed to better align representations with the structure, terminology, and annotation conventions of Dutch pathology reports. Both models are fine-tuned with default decoding (DD) and CD.</p>
+
+<p>Performance is assessed using BLEU scores for quantitative evaluation and case-based evaluations for qualitative assessment, where generated codes are used to retrieve patients from the Palga database. Quantitatively, both fine-tuned PaTh5.NL models significantly outperform the fine-tuned mT5 model, especially on shorter histology and cytology reports. However, all models decline on longer or more complex reports. The case-based evaluation shows that, despite higher BLEU scores, PaTh5.NL does not consistently outperform mT5 in retrieving relevant patients.</p>
+
+<p>This work demonstrates that fine-tuned T5-based models can enhance annotation for Dutch pathology reports, while highlighting ongoing challenges with complex conclusion texts, particularly in histology and autopsy reports. Future work should expand gold-standard datasets and develop post-processing algorithms to improve generalization.</p>
+
+<p><a href="https://pubmed.ncbi.nlm.nih.gov/41536583/" target="_blank" rel="noreferrer">Reference / DOI: PubMed 41536583</a></p></div>
+        </div>
+      </article>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <p class="footer-text">Translational AI Laboratory (TrAIL)</p>
+        <a class="footer-link" href="../index.html#top">Back to home</a>
+      </div>
+    </footer>
+  </body>
+</html>
