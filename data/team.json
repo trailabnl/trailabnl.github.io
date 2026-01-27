@@ -2,7 +2,7 @@
   {
     "name": "Martijn Schut",
     "role": "Chair",
-    "image": "/assets/images/schut.jpg"
+    "image": "assets/images/schut.jpg"
   },
   {
     "name": "Helena Chon",
@@ -11,81 +11,81 @@
   {
     "name": "Micol Zweig",
     "role": "AI Laboratory Officer",
-    "image": "/assets/images/micol.jpeg"
+    "image": "assets/images/micol.jpeg"
   },
   {
     "name": "Sjors in 't Veld",
     "role": "Postdoctoral researcher",
-    "image": "/assets/images/sjors.jpg"
+    "image": "assets/images/sjors.jpg"
   },
   {
     "name": "Majid Lotfian Delouee",
     "role": "Postdoctoral researcher",
     "focus": "Clinical Foundation Models",
-    "image": "/assets/images/majid.jpeg"
+    "image": "assets/images/majid.jpeg"
   },
   {
     "name": "Daniel Daza",
     "role": "Postdoctoral researcher",
     "focus": "Learning and Reasoning",
-    "image": "/assets/images/Daniel.jpeg"
+    "image": "assets/images/Daniel.jpeg"
   },
   {
     "name": "Andrea Rafanelli",
     "role": "Postdoctoral researcher",
     "focus": "Digital Biomarkers",
-    "image": "/assets/images/andrea.jpg"
+    "image": "assets/images/andrea.jpg"
   },
   {
     "name": "Allerdien Visser",
     "role": "Research analyst",
-    "image": "/assets/images/allerdien.jpeg"
+    "image": "assets/images/allerdien.jpeg"
   },
   {
     "name": "Manon van Ingen",
     "role": "Research analyst",
-    "image": "/assets/images/manon.png"
+    "image": "assets/images/manon.png"
   },
   {
     "name": "Mandy Chin-Sie",
     "role": "Support staff",
-    "image": "/assets/images/mandy.jpeg"
+    "image": "assets/images/mandy.jpeg"
   },
   {
     "name": "Youssef El Ghouch",
     "role": "PhD student",
     "focus": "Microbiology",
-    "image": "/assets/images/youssef.png"
+    "image": "assets/images/youssef.png"
   },
   {
     "name": "Martijn Siepel",
     "role": "PhD student",
     "focus": "Microbiology",
-    "image": "/assets/images/siepel.png"
+    "image": "assets/images/siepel.png"
   },
   {
     "name": "Bas de Haan",
     "role": "PhD student",
     "focus": "Endocrinology",
-    "image": "/assets/images/bas.png"
+    "image": "assets/images/bas.png"
   },
   {
     "name": "Isabel Houtkamp",
     "role": "PhD student",
     "focus": "Neurochemistry",
-    "image": "/assets/images/isabel.jpeg"
+    "image": "assets/images/isabel.jpeg"
   },
   {
     "name": "Sjoerd Kielstra",
     "role": "PhD student",
     "focus": "Human Movement Sciences",
-    "image": "/assets/images/sjoerd.jpg"
+    "image": "assets/images/sjoerd.jpg"
   },
   {
     "name": "Roosmarie Jessen",
     "role": "PhD student",
     "focus": "Ethics and Law",
-    "image": "/assets/images/roosmarie.jpeg"
+    "image": "assets/images/roosmarie.jpeg"
   },
   {
     "name": "TBA",

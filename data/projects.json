@@ -3,7 +3,7 @@
     "title": "ACCENT",
     "excerpt": "The study of relationships between genes and diseases is a focus area with applications ranging from better understanding the efficacy of drugs or the design of new ones, to the anticipation of disease onset and the eventual acting on prev…",
     "url": "projects/accent.html",
-    "image": "/assets/images/ai_risk_score.png",
+    "image": "assets/images/ai_risk_score.png",
     "ctaLabel": "Read More",
     "slug": "accent",
     "subtitle": "Project"
@@ -12,7 +12,7 @@
     "title": "LabGPT",
     "excerpt": "Clinical prediction models are potentially effective, but very limited in a medical sense [Moor et al 2023]: (i) the models are often task-specific for one particular disease, intervention or clinical outcome. For example, each of the 500…",
     "url": "projects/labgpt.html",
-    "image": "/assets/images/ai_llm_dashboard_in_lab.png",
+    "image": "assets/images/ai_llm_dashboard_in_lab.png",
     "ctaLabel": "Read More",
     "slug": "labgpt",
     "subtitle": "Project"
@@ -21,7 +21,7 @@
     "title": "BloodCounts!",
     "excerpt": "The Full Blood Count (FBC) is an essential test used to inform medical decision-making. It is the world’s most common medical laboratory test – performed an estimated 3.6 billion times per year.During the 30-second FBC test, an automated m…",
     "url": "projects/bloodcounts.html",
-    "image": "/assets/images/bloodcount_analysis.png",
+    "image": "assets/images/bloodcount_analysis.png",
     "ctaLabel": "Read More",
     "slug": "bloodcounts",
     "subtitle": "Project"
@@ -30,7 +30,7 @@
     "title": "EXCELERATE",
     "excerpt": "Foundation Model Development for Advanced Full Blood Count Analysis",
     "url": "projects/excelerate.html",
-    "image": "/assets/images/ai_advanced_systems.png",
+    "image": "assets/images/ai_advanced_systems.png",
     "ctaLabel": "Read More",
     "slug": "excelerate",
     "subtitle": "Project"

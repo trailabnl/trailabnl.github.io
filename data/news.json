@@ -3,7 +3,7 @@
     "title": "Publication in JPI!",
     "excerpt": "We published in JPI on automating Palga thesaurus annotations with T5-based models, showing strong quantitative gains with PaTh5.NL while highlighting persistent challenges on complex reports.",
     "url": "news/publication-in-jpi.html",
-    "image": "/assets/images/ai_advanced_systems.png",
+    "image": "assets/images/ai_advanced_systems.png",
     "ctaLabel": "Read More",
     "slug": "publication-in-jpi",
     "date": "December 28, 2025"
@@ -12,7 +12,7 @@
     "title": "PhD vacancy!",
     "excerpt": "Within #laboratory medicine we are working hard to improve diagnostics. #Artificial #Intelligence is a means to further improve those diagnostics. Do you want to work as a #PhD candidate on projects in which Artificial Intelligence will be…",
     "url": "news/phd-vacancy.html",
-    "image": "/assets/images/ai_lab.png",
+    "image": "assets/images/ai_lab.png",
     "ctaLabel": "Read More",
     "slug": "phd-vacancy",
     "date": "March 24, 2025"
@@ -21,7 +21,7 @@
     "title": "New publication in BJGP!",
     "excerpt": "The journey of more than 80% of patients diagnosed with lung cancer starts in general practice. About 75% of patients are diagnosed in an advanced stage (3 or 4), leading to more than 80% mortality within one year at present. The long-term…",
     "url": "news/new-publication-in-bjgp.html",
-    "image": "/assets/images/lung_cancer.jpg",
+    "image": "assets/images/lung_cancer.jpg",
     "ctaLabel": "Read More",
     "slug": "new-publication-in-bjgp",
     "date": "March 5, 2025"
@@ -30,7 +30,7 @@
     "title": "Interview with Martijn",
     "excerpt": "As a risk and prediction model, as decision support for the physician, as a tool for process optimization, artificial intelligence (AI) is penetrating all facets of healthcare. Does it also lead to better patient care? Prof. Dr. Martijn Sc…",
     "url": "news/interview-with-martijn-23-01-2025.html",
-    "image": "/assets/images/ai_lab_measurements.png",
+    "image": "assets/images/ai_lab_measurements.png",
     "ctaLabel": "Read More",
     "slug": "interview-with-martijn-23-01-2025",
     "date": "January 23, 2025"
@@ -39,7 +39,7 @@
     "title": "New publication in OJRD!",
     "excerpt": "This study demonstrates an innovative approach to applying machine learning to ultra-rare diseases by accurately identifying GSD Ia (Von Gierke) patients based on plasma free carnitine and acylcarnitine concentrations, leveraging subtle ac…",
     "url": "news/new-publication-ojrd.html",
-    "image": "/assets/images/ojrd_protein_fold.png",
+    "image": "assets/images/ojrd_protein_fold.png",
     "ctaLabel": "Read More",
     "slug": "new-publication-ojrd",
     "date": "January 9, 2025"
@@ -48,7 +48,7 @@
     "title": "Dr. Daniel!",
     "excerpt": "Daniel Daza’s research focused on improving how computers understand and use large, interconnected datasets called knowledge graphs (KGs). These graphs organize information about entities, like people, organizations, or molecules, and the…",
     "url": "news/dr-daniel.html",
-    "image": "/assets/images/defense_daniel.jpg",
+    "image": "assets/images/defense_daniel.jpg",
     "ctaLabel": "Read More",
     "slug": "dr-daniel",
     "date": "December 17, 2024"
@@ -57,7 +57,7 @@
     "title": "Dr. Sjors!",
     "excerpt": "Dr. In t’ Veld’s work represents a pivotal advancement in the field of liquid biopsy, establishing tumor-educated platelets (TEPs) as a highly versatile and clinically significant biosource for disease detection and monitoring. By leveragi…",
     "url": "news/dr-sjors.html",
-    "image": "/assets/images/sjors.jpg",
+    "image": "assets/images/sjors.jpg",
     "ctaLabel": "Read More",
     "slug": "dr-sjors",
     "date": "November 30, 2024"
