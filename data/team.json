@@ -25,21 +25,10 @@
     "image": "assets/images/majid.jpeg"
   },
   {
-    "name": "Daniel Daza",
-    "role": "Postdoctoral researcher",
-    "focus": "Learning and Reasoning",
-    "image": "assets/images/Daniel.jpeg"
-  },
-  {
     "name": "Andrea Rafanelli",
     "role": "Postdoctoral researcher",
     "focus": "Digital Biomarkers",
     "image": "assets/images/andrea.jpg"
-  },
-  {
-    "name": "Allerdien Visser",
-    "role": "Research analyst",
-    "image": "assets/images/allerdien.jpeg"
   },
   {
     "name": "Manon van Ingen",
@@ -52,22 +41,10 @@
     "image": "assets/images/mandy.jpeg"
   },
   {
-    "name": "Youssef El Ghouch",
-    "role": "PhD student",
-    "focus": "Microbiology",
-    "image": "assets/images/youssef.png"
-  },
-  {
     "name": "Martijn Siepel",
     "role": "PhD student",
     "focus": "Microbiology",
     "image": "assets/images/siepel.png"
-  },
-  {
-    "name": "Bas de Haan",
-    "role": "PhD student",
-    "focus": "Endocrinology",
-    "image": "assets/images/bas.png"
   },
   {
     "name": "Isabel Houtkamp",
