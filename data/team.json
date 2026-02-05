@@ -6,7 +6,8 @@
   },
   {
     "name": "Helena Chon",
-    "role": "Clinical Chemist"
+    "role": "Clinical Chemist",
+    "image": "assets/images/helena.jpg"
   },
   {
     "name": "Micol Zweig",
@@ -66,29 +67,17 @@
   },
   {
     "name": "Jeanne Muizelaar",
-    "role": "PhD student"
+    "role": "PhD student",
+    "image": "assets/images/jeanne.png"
   },
   {
     "name": "Brandi de Bruijn",
-    "role": "PhD student"
+    "role": "PhD student",
+    "image": "assets/images/brandi.jpg"
   },
   {
     "name": "Adel Schmucklermann",
-    "role": "PhD student"
-  },
-  {
-    "name": "TBA",
     "role": "PhD student",
-    "focus": "Endocrinology"
-  },
-  {
-    "name": "Vacancy",
-    "role": "PhD student",
-    "focus": "Laboratory Medicine"
-  },
-  {
-    "name": "Vacancy",
-    "role": "PhD student",
-    "focus": "ADOREBioComputing"
+    "image": "assets/images/adel.jpg" 
   }
 ]
