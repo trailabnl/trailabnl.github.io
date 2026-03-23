@@ -146,19 +146,21 @@
       body.appendChild(text);
     }
 
-    const actions = document.createElement("div");
-    actions.className = "card-actions";
+    if (item.url) {
+      const actions = document.createElement("div");
+      actions.className = "card-actions";
 
-    const link = document.createElement("a");
-    link.className = "button button--accent";
-    link.textContent = item.ctaLabel || "Read More";
-    link.href = item.url || "#";
-    if (item.url && /^https?:\/\//.test(item.url)) {
-      link.target = "_blank";
-      link.rel = "noreferrer";
+      const link = document.createElement("a");
+      link.className = "button button--accent";
+      link.textContent = item.ctaLabel || "Read More";
+      link.href = item.url;
+      if (/^https?:\/\//.test(item.url)) {
+        link.target = "_blank";
+        link.rel = "noreferrer";
+      }
+      actions.appendChild(link);
+      body.appendChild(actions);
     }
-    actions.appendChild(link);
-    body.appendChild(actions);
 
     card.appendChild(media);
     card.appendChild(body);
@@ -179,58 +181,102 @@
     const nextBtn = carouselEl.querySelector(".carousel-control.next");
     if (!track || !prevBtn || !nextBtn) return;
 
-    track.innerHTML = "";
-    items.forEach((item) => track.appendChild(createCardSlide(item)));
-
     const state = {
       index: 0,
       itemsPerView: 1,
-      maxIndex: 0,
       slideWidth: 0,
       gap: 0,
+      cloneCount: 0,
+      transitioning: false,
     };
 
-    function measure() {
+    function buildSlides() {
+      track.innerHTML = "";
       state.itemsPerView = getItemsPerView(window.innerWidth);
       carouselEl.style.setProperty("--items-per-view", String(state.itemsPerView));
-      state.maxIndex = Math.max(0, items.length - state.itemsPerView);
 
-      const firstSlide = track.querySelector(".carousel-slide");
-      state.gap = getTrackGap(track);
-      state.slideWidth = firstSlide ? firstSlide.getBoundingClientRect().width : 0;
-
-      state.index = Math.min(state.index, state.maxIndex);
-      update();
-    }
-
-    function updateControls() {
-      const disabled = items.length <= state.itemsPerView;
-      prevBtn.disabled = disabled;
-      nextBtn.disabled = disabled;
-      prevBtn.setAttribute("aria-disabled", String(disabled));
-      nextBtn.setAttribute("aria-disabled", String(disabled));
+      var disabled = items.length <= state.itemsPerView;
       prevBtn.style.visibility = disabled ? "hidden" : "visible";
       nextBtn.style.visibility = disabled ? "hidden" : "visible";
+      if (disabled) {
+        items.forEach((item) => track.appendChild(createCardSlide(item)));
+        track.style.transform = "translateX(0px)";
+        return;
+      }
+
+      state.cloneCount = state.itemsPerView;
+
+      // Clones at the end (first N items)
+      var endClones = [];
+      for (var i = 0; i < state.cloneCount; i++) {
+        endClones.push(items[i % items.length]);
+      }
+      // Clones at the start (last N items)
+      var startClones = [];
+      for (var i = 0; i < state.cloneCount; i++) {
+        startClones.push(items[items.length - state.cloneCount + i]);
+      }
+
+      startClones.forEach((item) => {
+        var slide = createCardSlide(item);
+        slide.setAttribute("aria-hidden", "true");
+        track.appendChild(slide);
+      });
+      items.forEach((item) => track.appendChild(createCardSlide(item)));
+      endClones.forEach((item) => {
+        var slide = createCardSlide(item);
+        slide.setAttribute("aria-hidden", "true");
+        track.appendChild(slide);
+      });
+
+      state.gap = getTrackGap(track);
+      var firstSlide = track.querySelector(".carousel-slide");
+      state.slideWidth = firstSlide ? firstSlide.getBoundingClientRect().width : 0;
+
+      // Start at the first real slide
+      state.index = state.cloneCount;
+      jumpTo(state.index);
     }
 
-    function update() {
-      const offset = state.index * (state.slideWidth + state.gap);
-      track.style.transform = `translateX(${-offset}px)`;
-      updateControls();
+    function jumpTo(idx) {
+      track.style.transition = "none";
+      var offset = idx * (state.slideWidth + state.gap);
+      track.style.transform = "translateX(" + -offset + "px)";
+      // Force reflow so the jump is instant
+      track.offsetHeight;
+      track.style.transition = "";
+    }
+
+    function slideTo(idx) {
+      state.transitioning = true;
+      state.index = idx;
+      var offset = idx * (state.slideWidth + state.gap);
+      track.style.transform = "translateX(" + -offset + "px)";
+    }
+
+    function onTransitionEnd() {
+      state.transitioning = false;
+      // If we're on a clone, silently jump to the real slide
+      if (state.index >= state.cloneCount + items.length) {
+        state.index = state.cloneCount + (state.index - state.cloneCount - items.length);
+        jumpTo(state.index);
+      } else if (state.index < state.cloneCount) {
+        state.index = state.cloneCount + items.length - (state.cloneCount - state.index);
+        jumpTo(state.index);
+      }
     }
 
     function next() {
-      if (state.maxIndex === 0) return;
-      state.index = state.index >= state.maxIndex ? 0 : state.index + 1;
-      update();
+      if (state.transitioning || items.length <= state.itemsPerView) return;
+      slideTo(state.index + 1);
     }
 
     function prev() {
-      if (state.maxIndex === 0) return;
-      state.index = state.index <= 0 ? state.maxIndex : state.index - 1;
-      update();
+      if (state.transitioning || items.length <= state.itemsPerView) return;
+      slideTo(state.index - 1);
     }
 
+    track.addEventListener("transitionend", onTransitionEnd);
     prevBtn.addEventListener("click", prev);
     nextBtn.addEventListener("click", next);
 
@@ -240,10 +286,10 @@
     });
 
     window.addEventListener("resize", () => {
-      measure();
+      buildSlides();
     });
 
-    measure();
+    buildSlides();
   }
 
   async function setupCarousels() {
@@ -269,6 +315,7 @@
     );
   }
 
+
   async function setupTeam() {
     const grid = document.querySelector(SELECTORS.teamGrid);
     if (!grid) return;
@@ -277,9 +324,16 @@
 
     const fragment = document.createDocumentFragment();
     people.forEach((person) => {
-      const card = document.createElement("article");
-      card.className = "team-card";
-      card.setAttribute("role", "listitem");
+      const wrapper = document.createElement("article");
+      wrapper.className = "team-card";
+      wrapper.setAttribute("role", "listitem");
+
+      const inner = document.createElement("div");
+      inner.className = "team-card-inner";
+
+      // Front face
+      const front = document.createElement("div");
+      front.className = "team-card-front";
 
       const photo = document.createElement("div");
       photo.className = "team-photo";
@@ -300,18 +354,29 @@
       role.className = "team-role";
       role.textContent = person.role || "";
 
-      card.appendChild(photo);
-      card.appendChild(name);
-      card.appendChild(role);
+      front.appendChild(photo);
+      front.appendChild(name);
+      front.appendChild(role);
 
-      if (person.focus) {
-        const focus = document.createElement("p");
-        focus.className = "team-focus";
-        focus.textContent = person.focus;
-        card.appendChild(focus);
-      }
+      // Back face
+      const back = document.createElement("div");
+      back.className = "team-card-back";
 
-      fragment.appendChild(card);
+      const backName = document.createElement("h3");
+      backName.className = "team-name";
+      backName.textContent = person.name || "Unknown";
+
+      const quote = document.createElement("p");
+      quote.className = "team-quote";
+      quote.textContent = person.quote ? `"${person.quote}"` : "";
+
+      back.appendChild(backName);
+      back.appendChild(quote);
+
+      inner.appendChild(front);
+      inner.appendChild(back);
+      wrapper.appendChild(inner);
+      fragment.appendChild(wrapper);
     });
 
     grid.innerHTML = "";

@@ -1,38 +1,62 @@
 [
   {
-    "title": "ACCENT",
-    "excerpt": "The study of relationships between genes and diseases is a focus area with applications ranging from better understanding the efficacy of drugs or the design of new ones, to the anticipation of disease onset and the eventual acting on prev…",
-    "url": "projects/accent.html",
-    "image": "assets/images/ai_risk_score.png",
-    "ctaLabel": "Read More",
-    "slug": "accent",
-    "subtitle": "Project"
-  },
-  {
     "title": "LabGPT",
-    "excerpt": "Clinical prediction models are potentially effective, but very limited in a medical sense [Moor et al 2023]: (i) the models are often task-specific for one particular disease, intervention or clinical outcome. For example, each of the 500…",
-    "url": "projects/labgpt.html",
-    "image": "assets/images/ai_llm_dashboard_in_lab.png",
-    "ctaLabel": "Read More",
-    "slug": "labgpt",
-    "subtitle": "Project"
-  },
-  {
-    "title": "BloodCounts!",
-    "excerpt": "The Full Blood Count (FBC) is an essential test used to inform medical decision-making. It is the world’s most common medical laboratory test – performed an estimated 3.6 billion times per year.During the 30-second FBC test, an automated m…",
-    "url": "projects/bloodcounts.html",
-    "image": "assets/images/bloodcount_analysis.png",
-    "ctaLabel": "Read More",
-    "slug": "bloodcounts",
-    "subtitle": "Project"
+    "excerpt": "The LabGPT project is creating an advanced AI model using large amounts of lab test data to help doctors make better medical decisions. Unlike current AI tools that work on just one specific task, this model aims to handle many different clinical problems. It's being tested on real medical cases like infections, heart failure, rare diseases, and blood tests to show its wide usefulness. The team is working with experts in Cambridge to make sure the AI works well in real hospitals.",
+    "image": "assets/images/ai_llm_dashboard_in_lab.png"
   },
   {
     "title": "EXCELERATE",
-    "excerpt": "Foundation Model Development for Advanced Full Blood Count Analysis",
-    "url": "projects/excelerate.html",
-    "image": "assets/images/ai_advanced_systems.png",
-    "ctaLabel": "Read More",
-    "slug": "excelerate",
-    "subtitle": "Project"
+    "excerpt": "The EXCelerate project tests if AI models, like those used for text or images, can also work with blood test data. These models learn patterns from large datasets and are then used to help doctors predict health risks, like infections or heart disease, more accurately and consistently across different tasks.",
+    "image": "assets/images/ai_advanced_systems.png"
+  },
+  {
+    "title": "ACCENT",
+    "excerpt": "This project builds smart maps of scientific knowledge using text and computer learning tools. It focuses on a rare disease called adrenoleukodystrophy (ALD) to see if these maps can help find hidden connections and improve our understanding of how the disease develops, especially when little data is available.",
+    "image": "assets/images/ai_risk_score.png"
+  },
+  {
+    "title": "NORMAL",
+    "excerpt": "This project aims to make Alzheimer's blood tests more accurate by finding markers in the blood that adjust for natural variations between people. Such markers help separate the test results of healthy individuals from those with Alzheimer's. Using machine learning, we analyze existing data to identify these markers and improve test reliability.",
+    "image": "assets/images/ai_lab_measurements.png"
+  },
+  {
+    "title": "ASTRA",
+    "excerpt": "ASTRA uses AI to analyze lab results, patient history, and ECGs for patients with acute coronary syndrome. It serves as a decision support tool for cardiologists, performing risk stratification to guide personalized treatment and follow-up care.",
+    "image": "assets/images/ai_lab.png"
+  },
+  {
+    "title": "AI4AMS",
+    "excerpt": "We use artificial intelligence to help doctors at Amsterdam UMC prescribe antibiotics more effectively. Our work covers three areas: building tools to track antibiotic use and ensure the right diagnostic tests are ordered, using AI to identify infection types from clinical notes, and predicting the best time to switch from IV to oral antibiotics—all aimed at improving patient outcomes and combating resistance.",
+    "image": "assets/images/ai_ai4ams.png"
+  },
+  {
+    "title": "Building2Understanding",
+    "excerpt": "The Integrative Learning project creates smart computer models that combine different types of medical knowledge—like doctor's notes, lab results, genetics, and scans—to better predict how diseases progress. This approach is being tested on conditions like ALD and multiple sclerosis to help doctors make more accurate and personalized decisions.",
+    "image": "assets/images/ai_b2u.png"
+  },
+  {
+    "title": "AISDX",
+    "excerpt": "The aim of this project is to find out how AI can help in the field of laboratory medicine. This can include AI tools that help doctors analyze lab tests for hormone-related diseases, or AI tools that help analysts during the pre-processing of samples. All tools are built using hospital data. The goal is to make diagnoses faster and more accurate for better and more personalised patient care.",
+    "image": "assets/images/ai_aisdx.png"
+  },
+  {
+    "title": "BloodCounts!",
+    "excerpt": "The BloodCounts! project uses artificial intelligence to study detailed blood test results and spot early signs of diseases. By safely combining data from hospitals around the world, it helps detect infections and conditions like anemia or leukemia sooner —without sharing personal data— making diagnosis faster and more accurate for patients everywhere.",
+    "image": "assets/images/bloodcount_analysis.png"
+  },
+  {
+    "title": "CAPTURE-CR",
+    "excerpt": "This study looks at how nerve pain in the neck affects recovery and what might predict long-term problems. It uses tests that measure how people feel pain and touch, and checks for signs of inflammation. The goal is to build a computer model to help predict who will recover and who won't.",
+    "image": "assets/images/ai_capture.png"
+  },
+  {
+    "title": "ETR",
+    "excerpt": "This project uses smart computer tools to better predict how long medical tests will take. By improving how hospitals track and manage test times, care can be given faster and more efficiently. The results will be used directly in hospitals to help patients get quicker diagnoses and treatments.",
+    "image": "assets/images/ai_etr.png"
+  },
+  {
+    "title": "BALANCE",
+    "excerpt": "This PhD project looks at how doctors and nurses feel about their responsibility when using AI in healthcare and what laws and ethical rules apply. It also checks if current rules are good enough to handle these new technologies and suggests changes if needed to make AI safe and useful in medicine.",
+    "image": "assets/images/ai_balance.png"
   }
 ]

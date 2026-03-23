@@ -2,82 +2,91 @@
   {
     "name": "Martijn Schut",
     "role": "Chair",
-    "image": "assets/images/schut.jpg"
+    "image": "assets/images/schut.jpg",
+    "quote": "Rigorous research today is better medicine tomorrow"
   },
   {
     "name": "Helena Chon",
     "role": "Clinical Chemist",
-    "image": "assets/images/helena.jpg"
+    "image": "assets/images/helena.jpg",
+    "quote": "Data-driven care, human-centered outcomes"
   },
   {
     "name": "Micol Zweig",
     "role": "AI Laboratory Officer",
-    "image": "assets/images/micol.jpeg"
+    "image": "assets/images/micol.jpeg",
+    "quote": "AI and health: better together, always"
   },
   {
     "name": "Sjors in 't Veld",
     "role": "Postdoctoral researcher",
-    "image": "assets/images/sjors.jpg"
+    "image": "assets/images/sjors.jpg",
+    "quote": "AI empowers, compassion heals"
   },
   {
     "name": "Majid Lotfian Delouee",
     "role": "Postdoctoral researcher",
-    "focus": "Clinical Foundation Models",
-    "image": "assets/images/majid.jpeg"
+    "image": "assets/images/majid.jpeg",
+    "quote": "From code to care"
   },
   {
     "name": "Andrea Rafanelli",
     "role": "Postdoctoral researcher",
-    "focus": "Digital Biomarkers",
-    "image": "assets/images/andrea.jpg"
+    "image": "assets/images/andrea.jpg",
+    "quote": "The beginning is half of every work"
   },
   {
     "name": "Manon van Ingen",
     "role": "Research analyst",
-    "image": "assets/images/manon.png"
+    "image": "assets/images/manon.png",
+    "quote": "Every question leads to new knowledge"
   },
   {
     "name": "Mandy Chin-Sie",
     "role": "Support staff",
-    "image": "assets/images/mandy.jpeg"
+    "image": "assets/images/mandy.jpeg",
+    "quote": "Master chaos, create clarity"
   },
   {
     "name": "Martijn Siepel",
     "role": "PhD student",
-    "focus": "Microbiology",
-    "image": "assets/images/siepel.png"
+    "image": "assets/images/siepel.png",
+    "quote": "Structure reveals what definitions alone cannot"
   },
   {
     "name": "Isabel Houtkamp",
     "role": "PhD student",
-    "focus": "Neurochemistry",
-    "image": "assets/images/isabel.jpeg"
+    "image": "assets/images/isabel.jpeg",
+    "quote": "Wonder fuels progress, evidence guides us"
   },
   {
     "name": "Sjoerd Kielstra",
     "role": "PhD student",
-    "focus": "Human Movement Sciences",
-    "image": "assets/images/sjoerd.jpg"
+    "image": "assets/images/sjoerd.jpg",
+    "quote": "Explore boldly, discover wisely"
   },
   {
     "name": "Roosmarie Jessen",
     "role": "PhD student",
-    "focus": "Ethics and Law",
-    "image": "assets/images/roosmarie.jpeg"
+    "image": "assets/images/roosmarie.jpeg",
+    "quote": "There are two sides to every story"
   },
   {
     "name": "Jeanne Muizelaar",
     "role": "PhD student",
-    "image": "assets/images/jeanne.png"
+    "image": "assets/images/jeanne.png",
+    "quote": "Be curious"
   },
   {
     "name": "Brandi de Bruijn",
     "role": "PhD student",
-    "image": "assets/images/brandi.jpg"
+    "image": "assets/images/brandi.jpg",
+    "quote": ""
   },
   {
     "name": "Adel Schmucklermann",
     "role": "PhD student",
-    "image": "assets/images/adel.jpg" 
+    "image": "assets/images/adel.jpg",
+    "quote": "Stay curious"
   }
 ]
