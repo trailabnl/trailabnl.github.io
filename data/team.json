@@ -88,5 +88,11 @@
     "role": "PhD student",
     "image": "assets/images/adel.jpg",
     "quote": "Stay curious"
+  },
+  {
+    "name": "Jose Asitores Cortina",
+    "role": "PhD student",
+    "image": "assets/images/jose.png",
+    "quote": "Every question leads to new knowledge"
   }
 ]
