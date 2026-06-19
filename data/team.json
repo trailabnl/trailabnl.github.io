@@ -36,6 +36,12 @@
     "quote": "The beginning is half of every work"
   },
   {
+    "name": "Nicole Huizinga",
+    "role": "Data & Quality steward",
+    "image": "assets/images/huizinga.png", 
+    "quote": "Better data quality, better care"
+  },
+  {
     "name": "Manon van Ingen",
     "role": "Research analyst",
     "image": "assets/images/manon.png",
@@ -78,10 +84,10 @@
     "quote": "Be curious"
   },
   {
-    "name": "Brandi de Bruijn",
+    "name": "Jesca Mwende",
     "role": "PhD student",
-    "image": "assets/images/brandi.jpg",
-    "quote": ""
+    "image": "assets/images/mwende.png",
+    "quote": "Good AI starts with good data & a clear process"
   },
   {
     "name": "Adel Schmucklermann",

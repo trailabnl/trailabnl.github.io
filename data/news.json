@@ -1,5 +1,14 @@
 [
   {
+    "title": "New publication in CMI!",
+    "excerpt": "The key to guideline-driven antibiotic stewardship is knowing which infection was actually being treated. Martijn Siepel, together Suzanne Kuijpers and colleagues at Amsterdam UMC, we reviewed 157 studies on how the indication for antibiotic treatment is captured — and why rule-based or AI approaches remain almost untouched.",
+    "url": "news/new-publication-in-cmi.html",
+    "image": "assets/images/methods_for_determining_indications.jpg",
+    "ctaLabel": "Read More",
+    "slug": "new-publication-in-cmi",
+    "date": "June 12, 2026"
+  },
+  {
     "title": "Publication in JPI!",
     "excerpt": "We published in JPI on automating Palga thesaurus annotations with T5-based models, showing strong quantitative gains with PaTh5.NL while highlighting persistent challenges on complex reports.",
     "url": "news/publication-in-jpi.html",
@@ -34,32 +43,5 @@
     "ctaLabel": "Read More",
     "slug": "interview-with-martijn-23-01-2025",
     "date": "January 23, 2025"
-  },
-  {
-    "title": "New publication in OJRD!",
-    "excerpt": "This study demonstrates an innovative approach to applying machine learning to ultra-rare diseases by accurately identifying GSD Ia (Von Gierke) patients based on plasma free carnitine and acylcarnitine concentrations, leveraging subtle ac…",
-    "url": "news/new-publication-ojrd.html",
-    "image": "assets/images/ojrd_protein_fold.png",
-    "ctaLabel": "Read More",
-    "slug": "new-publication-ojrd",
-    "date": "January 9, 2025"
-  },
-  {
-    "title": "Dr. Daniel!",
-    "excerpt": "Daniel Daza’s research focused on improving how computers understand and use large, interconnected datasets called knowledge graphs (KGs). These graphs organize information about entities, like people, organizations, or molecules, and the…",
-    "url": "news/dr-daniel.html",
-    "image": "assets/images/defense_daniel.jpg",
-    "ctaLabel": "Read More",
-    "slug": "dr-daniel",
-    "date": "December 17, 2024"
-  },
-  {
-    "title": "Dr. Sjors!",
-    "excerpt": "Dr. In t’ Veld’s work represents a pivotal advancement in the field of liquid biopsy, establishing tumor-educated platelets (TEPs) as a highly versatile and clinically significant biosource for disease detection and monitoring. By leveragi…",
-    "url": "news/dr-sjors.html",
-    "image": "assets/images/sjors.jpg",
-    "ctaLabel": "Read More",
-    "slug": "dr-sjors",
-    "date": "November 30, 2024"
   }
 ]
