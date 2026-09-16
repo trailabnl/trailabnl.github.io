@@ -84,21 +84,27 @@
     "quote": "Be curious"
   },
   {
-    "name": "Jesca Mwende",
-    "role": "PhD student",
-    "image": "assets/images/mwende.png",
-    "quote": "Good AI starts with good data & a clear process"
-  },
-  {
     "name": "Adel Schmucklermann",
     "role": "PhD student",
     "image": "assets/images/adel.jpg",
     "quote": "Stay curious"
   },
   {
+    "name": "Jesca Mwende",
+    "role": "PhD student",
+    "image": "assets/images/mwende.png",
+    "quote": "Good AI starts with good data & a clear process"
+  },
+  {
     "name": "Jose Acitores Cortina",
     "role": "PhD student",
     "image": "assets/images/jose.png",
     "quote": "Every question leads to new knowledge"
+  },
+  {
+    "name": "Tessa Muileboom",
+    "role": "PhD student",
+    "image": "assets/images/tessa.png",
+    "quote": "Aim past the possible"
   }
 ]

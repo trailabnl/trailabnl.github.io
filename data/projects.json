@@ -35,7 +35,7 @@
     "image": "assets/images/ai_b2u.png"
   },
   {
-    "title": "AISDX",
+    "title": "Labwise",
     "excerpt": "The aim of this project is to find out how AI can help in the field of laboratory medicine. This can include AI tools that help doctors analyze lab tests for hormone-related diseases, or AI tools that help analysts during the pre-processing of samples. All tools are built using hospital data. The goal is to make diagnoses faster and more accurate for better and more personalised patient care.",
     "image": "assets/images/ai_aisdx.png"
   },
