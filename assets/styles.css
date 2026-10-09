@@ -134,6 +134,10 @@ a {
   padding: var(--section-pad) 0;
 }
 
+.section--tinted {
+  background: #f5f2ec;
+}
+
 .section--image {
   position: relative;
   color: #fff;
