@@ -292,13 +292,31 @@
     buildSlides();
   }
 
+  // Optional caps via data-max-items and data-max-age-months (items need a parseable "date")
+  function limitItems(carouselEl, items) {
+    if (!Array.isArray(items)) return items;
+    const maxItems = parseInt(carouselEl.getAttribute("data-max-items"), 10);
+    const maxAgeMonths = parseInt(carouselEl.getAttribute("data-max-age-months"), 10);
+    let result = items;
+
+    if (maxAgeMonths > 0) {
+      const cutoff = new Date();
+      cutoff.setMonth(cutoff.getMonth() - maxAgeMonths);
+      result = result
+        .filter((item) => new Date(item.date) >= cutoff)
+        .sort((a, b) => new Date(b.date) - new Date(a.date));
+    }
+    if (maxItems > 0) result = result.slice(0, maxItems);
+    return result;
+  }
+
   async function setupCarousels() {
     const carousels = Array.from(document.querySelectorAll(SELECTORS.carousels));
     await Promise.all(
       carousels.map(async (carouselEl) => {
         const source = carouselEl.getAttribute("data-source");
         if (!source) return;
-        const items = await fetchJson(source);
+        const items = limitItems(carouselEl, await fetchJson(source));
         if (!Array.isArray(items) || items.length === 0) {
           const track = carouselEl.querySelector(".carousel-track");
           if (track) {
